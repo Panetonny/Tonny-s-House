@@ -8,14 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header/main-header.css">
     <link rel="stylesheet" href="css/components/main-header/action-header.css">
     <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/box-title.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header" alt="Header do Site">
 
         <img class="icon" alt="Logo do site" src="assets/img/logo.png">
 
@@ -32,19 +38,129 @@
 
         <div class="wrapper">
             <div class="box-title">
-                <h1 class="main-title">Tonny's House</h1>
+                <h1 class="main-title" alt="Tonny's House Titulo do Site">Tonny's House</h1>
             </div>
 
             <nav class="navigation">
-                <a class="main-button">Donwload</a>
-                <a class="main-button">Contatos</a>
+                <a class="main-button" alt="Botão de Dowload">Donwload</a>
+                <a class="main-button" alt="Botão de Contatos">Contatos</a>
             </nav>
         </div>
 
     </section>
 
-    <section class="section -skills">
+    <section class="main-section -skills">  
 
+        <h2 class="main-title -second">Skills</h2>
+
+        <article class="skill-tec" alt="Html Skills">
+
+            <div class="wrapper">
+                <img class="icon" src="assets/img/ico_html5.png">
+                <div class="right">
+                    <h1 class="main-subtitle">HTML</h1>
+                    <progress class="progress-bar"></progress>
+                </div>
+            </div>
+        </article>
+
+        
+        <article class="skill-tec" alt="Css Skills">
+
+            <div class="wrapper">
+                <img class="icon" src="assets/img/ico_css3.png">
+                <div class="right">
+                    <h1 class="main-subtitle">CSS</h1>
+                    <progress class="progress-bar"></progress>
+                </div>
+            </div>
+        </article>
+
+        
+        <article class="skill-tec" alt="JavaScript Skills">
+
+            <div class="wrapper">
+                <img class="icon" src="assets/img/ico_js.png">
+                <div class="right">
+                    <h1 class="main-subtitle">JavaScript</h1>
+                    <progress class="progress-bar"></progress>
+                </div>
+            </div>
+        </article>
     </section>
+
+    <section class="main-section -projetos">
+        <h2 class="main-title -second">Projetos</h2>
+
+        <article class="main-project" alt="Projeto Sans Calculaotr">
+            <figure>
+                <img src="assets/img/logo-firedlabs.png">
+            </figure>
+        </article>
+
+        <article class="main-project" alt="Projeto Bibliteca de Tonny">
+            <figure>
+                <img src="assets/img/biblioteca_de_tonny-photo.png">
+            </figure>
+        </article>
+
+        <article class="main-project" alt="Projeto Tonny's House">
+            <figure>
+                <img src="assets/img/logo.png">
+            </figure>
+        </article>
+    </section>
+
+    <section class="main-section -sobre">
+
+        <h2 class="main-title -second">Sobre</h2>
+
+        <p class="main-paragrafro">
+            Olá estranho que por algum motivo se entressa em ler sobre mim. Sou Tonny, aos invés de falar minha idade, e ter que vim aqui trocar todo ano, prefiro só colocar uma vez que nasci no ano de 2008 dia 27 de junho, e deixar a seu trabalho somar. Decidi criar esse site com o objetivo de aprendizado. Estou aprendendo html, e quando se aprende html, se aplica, então aqui estou eu, criando uma web casnhinha online onde ao longo do tempo, vou ir autolizando com projetos meus.
+        </p>
+
+        <article class="projetc-time -tonnys_house" alt="Data do Primeiro projeto, Tonny's House, 2025">
+            <h1 class="main-subtitle">2025</h1>
+            <div class="linha"></div>
+            <img class="icon" src="assets/img/logo.png">
+        </article>
+
+        <article class="projetc-time -sans_calculator" alt="Data do Segundo projeto, sans calculator, 2025">
+            <h1 class="main-subtitle">2025</h1>
+            <div class="linha"></div>
+            <img class="icon" src="assets/img/sanscalculator_photo2.png">
+        </article>
+
+        <article class="projetc-time -biblioteca_de_tonny" alt="Data do terceiro projeto, Bibliotea de Tonny, 2025">
+            <h1 class="main-subtitle">2025</h1>
+            <div class="linha"></div>
+            <img class="icon" src="assets/img/biblioetca_de_tonny-photo 1.png">
+    </section>
+
+    <section class="main-section -contato">
+        
+        <h2 class="main-title -second">Contatos</h2>
+        
+        <div class="main-formulario">
+
+            <div class="nome">
+                <label for="nome" class="label">Nome:</label>
+                <input class="input" type="text">
+                <form class="form" method="post"></form>
+            </div>
+
+            <div class="email">
+                <label for="email" class="label">Email:</label>
+                <input type="text" class="input">
+                <form class="form" method="post"></form>
+            </div>
+
+            <div class="msg">
+                <label for="msg" class="label">Mensagem:</label>
+                <textarea class="textarea"></textarea>
+            </div>
+        </div>    
+    </section>
+
 </body>
 </html>
