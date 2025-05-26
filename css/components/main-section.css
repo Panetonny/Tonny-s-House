@@ -1,0 +1,15 @@
+.main-section{
+    box-sizing: border-box;
+
+    padding-top: 50px;
+
+    height: 770px;
+}
+
+.main-section .main-title{
+    text-align: center;
+}
+
+.main-section.-skills{
+    background-color: #728575;
+}
