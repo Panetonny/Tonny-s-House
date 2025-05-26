@@ -1,0 +1,26 @@
+.skill-tec{
+    display: flex;
+    flex-direction: row;
+
+    width: 472px;
+}
+
+.skill-tec .icon{
+    margin-right: 25px;
+}
+
+.skill-tec .progress-bar{
+    box-sizing: border-box;
+
+    width: 367px;
+    height: 43px;
+
+    border: 7px solid black;
+}
+
+.skill-tec .progress-bar::-moz-progress-bar{
+    background-color: #332F29; 
+}
+.skill-tec .progress-bar::-webkit-progress-bar{
+    background-color: #332F29; 
+}
