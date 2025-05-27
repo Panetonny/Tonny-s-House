@@ -1,0 +1,16 @@
+.main-project .icon{
+    padding: 15px 20px;
+}
+
+.main-project.-background_purple .icon{
+    background-color: #4F505C;
+
+    box-shadow: 8px 8px white;
+
+}
+
+.main-project.-background_gray .icon{
+    background-color: #332F29;
+
+    box-shadow: 8px 8px white;
+}
