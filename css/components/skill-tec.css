@@ -27,3 +27,8 @@
 .skill-tec .progress-bar::-webkit-progress-bar{
     background-color: #ffffff; 
 }
+
+.skill-tec.-background_white .icon{
+
+    background-color: white;
+}
