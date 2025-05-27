@@ -21,6 +21,9 @@
 .skill-tec .progress-bar::-moz-progress-bar{
     background-color: #332F29; 
 }
-.skill-tec .progress-bar::-webkit-progress-bar{
+.skill-tec .progress-bar::-webkit-progress-value{
     background-color: #332F29; 
+}
+.skill-tec .progress-bar::-webkit-progress-bar{
+    background-color: #ffffff; 
 }

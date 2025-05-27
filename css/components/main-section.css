@@ -2,24 +2,68 @@
     box-sizing: border-box;
 
     padding-top: 50px;
-
-    height: 770px;
 }
 
 .main-section .main-title{
     text-align: center;
+    margin-bottom: 50px;
 }
+
+
 
 .main-section.-skills{
     display: flex;
     flex-direction: column;
 
+    height: 850px;
+
     align-items: center;
 
     background-color: #728575;
+
+    overflow: hidden;
+
+    border-bottom: 10px solid #332F29;
+}
+
+.main-section.-skills .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 1042px;
 }
 
 .main-section.-skills .skill-tec{
+    margin-right: 98px;
     margin-bottom: 38px;
 }
+
+.main-section.-skills .skill-tec:nth-child(2n){
+    margin-right: 0px;
+}
+
+
+
+.main-section.-projetos{
+    background-color: black;
+
+    border-bottom: 10px solid #728575;
+}
+
+.main-section.-projetos .wrapper{
+    display: flex;
+    justify-content: center;
+
+    padding: 50px 148px 100px 140px;
+}
+
+.main-section.-projetos .main-project{
+    margin-right: 156px;
+}
+
+.main-section.-projetos .main-project:nth-child(3n){
+    margin-right: 0;
+}
+
+
 
