@@ -1,0 +1,20 @@
+.project-time{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-time.-one .project .icon{
+    width: 210px;
+    height: 132px;
+}
+
+.project-time.-second .project .icon{
+    width: 140px;
+    height: 140px;
+}
+
+.project-time.-third .project .icon{
+    width: 170px;
+    height: 140px;
+}

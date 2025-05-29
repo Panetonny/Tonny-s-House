@@ -16,6 +16,8 @@
     height: 43px;
 
     border: 7px solid black;
+
+    margin-top: 5px;
 }
 
 .skill-tec .progress-bar::-moz-progress-bar{

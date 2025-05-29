@@ -1,0 +1,12 @@
+.main-subtitle{
+    font-size: 25px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    color: #728575;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.main-subtitle.-color_white{
+    color: #ffffff;
+}
+
