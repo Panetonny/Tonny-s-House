@@ -19,3 +19,12 @@
 .main-header .navigation .action-header{
     margin-right: 30px;
 }
+
+.action::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #728575;
+    margin-right: 10px;
+}
