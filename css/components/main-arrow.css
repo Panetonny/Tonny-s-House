@@ -1,0 +1,26 @@
+.main-arrow{
+    width: 50px;
+    height: 50px;
+
+    background-color: #728575;
+
+
+    box-shadow: 5px 5px 0 black;
+
+    cursor: pointer;
+}
+
+
+.main-arrow::before{
+    content: " ";
+
+    display: block;
+
+    width: 0;
+    height: 0;
+    
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 28px solid white;
+    border-right: 20px solid transparent;
+}
