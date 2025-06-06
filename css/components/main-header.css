@@ -1,14 +1,10 @@
 .main-header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+
     background-color: #332F29;
-
-    padding: 10px 20px;
-
     border-bottom: 10px solid black;
+    padding: 10px 20px;
 }
 
 .main-header .icon{
@@ -16,11 +12,7 @@
     height: 60px;
 }
 
-.main-header .navigation .action-header{
-    margin-right: 30px;
-}
-
-.action::before{
+.main-header .navigation .action::before{
     content: "";
     display: inline-block;
     width: 10px;
@@ -28,3 +20,14 @@
     background-color: #728575;
     margin-right: 10px;
 }
+
+.main-header .navigation .action{
+    display: inline-flex;
+
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+
+.action
