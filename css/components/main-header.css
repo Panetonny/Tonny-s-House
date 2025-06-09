@@ -27,7 +27,12 @@
     align-items: center;
 
     margin-right: 30px;
+
+    transition: all 0.3s;
 }
 
 
-.action
+.main-header .navigation .action:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
