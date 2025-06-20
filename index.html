@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/components/line-time/line-time.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carossel.css">
 </head>
 <body>
 
@@ -138,71 +140,48 @@
     <section class="main-section -sobre">
 
         <h2 class="main-title -second">Sobre</h2>
+       
+        <section class="main-carrosel">
 
-        <div class="line-time">
-                <article class="project-time -one" alt="Data do Primeiro projeto, Tonny's House, 2025">
+            <button class="main-arrow -left"></button>
 
-                    <h1 class="main-subtitle">2025</h1>
-
-                        
-
-                    <figure class="project">
-                        
-                        
-                        <img class="icon" src="assets/img/logo.png">
+            <div class="carrosel">
+                <div class="items">
+                    <figure class="node-card -one">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/logo.png" alt="" class="icon">
                     </figure>
-                </article>
-
-                <article class="project-time -second" alt="Data do Primeiro projeto, Tonny's House, 2025">
-
-                    <figure class="project">
-                        <h1 class="main-subtitle">2025</h1>
-                        
-                        <img class="icon" src="assets/img/sanscalculator_photo2.png">
+                    
+                    <figure class="node-card -two">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/sanscalculator_photo2.png" alt="" class="icon">
                     </figure>
-                </article>
 
-                <article class="project-time -third" alt="Data do Primeiro projeto, Tonny's House, 2025">
-
-                    <figure class="project">
-                        <h1 class="main-subtitle">2025</h1>
-                        
-                        <img class="icon" src="assets/img/biblioetca_de_tonny-photo 1.png">
+                    <figure class="node-card -trhee">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/biblioetca_de_tonny-photo 1.png" alt="" class="icon">
                     </figure>
-                </article>
 
-                <article class="project-time -one" alt="Data do Primeiro projeto, Tonny's House, 2025">
-
-                    <figure class="project">
-                        <h1 class="main-subtitle">2025</h1>
-                        
-                        <img class="icon" src="assets/img/logo.png">
+                    <figure class="node-card -one">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/logo.png" alt="" class="icon">
                     </figure>
-                </article>
-
-                <article class="project-time -second" alt="Data do Primeiro projeto, Tonny's House, 2025">
-
-                    <figure class="project">
-                        <h1 class="main-subtitle">2025</h1>
-                        
-                        <img class="icon" src="assets/img/sanscalculator_photo2.png">
+                    
+                    <figure class="node-card -two">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/sanscalculator_photo2.png" alt="" class="icon">
                     </figure>
-                </article>
 
-                <article class="project-time -third" alt="Data do Primeiro projeto, Tonny's House, 2025">
-
-                    <figure class="project">
-                        <h1 class="main-subtitle">2025</h1>
-                        
-                        <img class="icon" src="assets/img/biblioetca_de_tonny-photo 1.png">
+                    <figure class="node-card -trhee">
+                        <figcaption class="main-subtitle">2025</figcaption>
+                        <img src="assets/img/biblioetca_de_tonny-photo 1.png" alt="" class="icon">
                     </figure>
-                </article>
-        </div>
-        
-        <button class="main-arrow -left">Esquerda</button>
-        
-        <button class="main-arrow -right">Direita</button>
-                
+                    </div>
+            </div>
+
+            <button class="main-arrow -right"></button>
+        </section>
+            
         <p class="main-paragrafo">
             Olá estranho que por algum motivo se entressa em ler sobre mim. Sou Tonny, aos invés de falar minha idade, e ter que vim aqui trocar todo ano, prefiro só colocar uma vez que nasci no ano de 2008 dia 27 de junho, e deixar a seu trabalho somar. Decidi criar esse site com o objetivo de aprendizado. Estou aprendendo html, e quando se aprende html, se aplica, então aqui estou eu, criando uma web casnhinha online onde ao longo do tempo, vou ir autualizando com projetos meus.
         </p>
@@ -233,5 +212,7 @@
             </div>
         </div>    
     </section>
+
+    <script src="script/components/main-carrosel.js"></script>
 </body>
 </html>

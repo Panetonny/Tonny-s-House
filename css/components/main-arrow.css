@@ -10,17 +10,32 @@
     cursor: pointer;
 }
 
+.main-arrow .content{
+    display: none;
+}
+
 
 .main-arrow::before{
     content: " ";
 
-    display: block;
+    display: inline-block;
 
     width: 0;
     height: 0;
+
+    border: 20px solid;
     
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 28px solid white;
     border-right: 20px solid transparent;
+
+    transform: translate(4px, 2px);
+}
+
+.main-arrow.-left::before{
+
+    transform: rotate(180deg) translateX(20px) translateY(-2px);
+
+
 }

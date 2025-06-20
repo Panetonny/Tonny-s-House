@@ -1,0 +1,16 @@
+.main-carrosel .carrosel{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-carrosel .carrosel .node-card{
+    transition: all 1s;
+} 
+
+.main-carrosel .carrosel .items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transition: transform 1s;
+}
