@@ -5,12 +5,12 @@ let cont = 0
 const pixel = 400
 
 arrowRight.addEventListener('click', function() {
-    cont = cont + pixel;
+    cont = cont - pixel;
     carrosel.style = `transform: translateX(${cont}px)`;
 });
 
 arrowLeft.addEventListener('click', function() {
-    cont = cont - pixel;
+    cont = cont + pixel;
     carrosel.style = `transform: translateX(${cont}px)`;
 });
 

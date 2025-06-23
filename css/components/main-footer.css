@@ -1,0 +1,16 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px 0;
+
+    background-color: black;
+}
+
+.main-footer .item{
+    margin-right: 40px;
+}
+
+.main-footer .item:last-of-type{
+    margin: 0;
+}

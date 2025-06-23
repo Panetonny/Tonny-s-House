@@ -6,11 +6,13 @@
 
 .main-carrosel .carrosel .node-card{
     transition: all 1s;
+
+    margin-right: 63px;
 } 
 
 .main-carrosel .carrosel .items{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+
     transition: transform 1s;
 }
